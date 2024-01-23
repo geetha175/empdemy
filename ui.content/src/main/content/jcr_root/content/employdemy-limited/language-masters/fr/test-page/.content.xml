@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-01-23T14:45:35.978+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2024-01-23T14:45:35.979+05:30"
+        cq:lastRolledoutBy="admin"
+        cq:template="/conf/employdemy-limited/settings/wcm/templates/newpage-template"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Test Page"
+        sling:resourceType="employdemy-limited/components/newpage">
+        <root
+            cq:lastRolledout="{Date}2024-01-23T14:45:35.962+05:30"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="employdemy-limited/components/container"
+            layout="responsiveGrid">
+            <container
+                cq:lastRolledout="{Date}2024-01-23T14:45:35.971+05:30"
+                cq:lastRolledoutBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="employdemy-limited/components/container"
+                layout="responsiveGrid">
+                <title
+                    cq:lastRolledout="{Date}2024-01-23T14:45:35.977+05:30"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="employdemy-limited/components/title"/>
+                <container
+                    cq:lastRolledout="{Date}2024-01-23T14:45:35.978+05:30"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="employdemy-limited/components/container"
+                    layout="responsiveGrid"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
